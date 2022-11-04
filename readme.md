@@ -153,7 +153,7 @@ reference.child("pontos").setValue(100);
 reference.child("usuarios").child("002").child("nome").setValue("Valdemar");
 ```
 > Adicionar Usuário
-```bash`
+```bash
 DatabaseReference usuarios = reference.child("usuarios");
         Usuario usuario = new Usuario();
         usuario.setNome("André");
